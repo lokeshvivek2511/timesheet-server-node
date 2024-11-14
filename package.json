@@ -1,11 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "functions/api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "npm install"
+    "build": "npm install",
+    "dev": "netlify dev"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.1",
-    "mongodb": "^6.10.0"
+    "mongodb": "^6.10.0",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^12.0.11"
   }
 }
