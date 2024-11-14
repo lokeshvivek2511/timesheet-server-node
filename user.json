@@ -1,0 +1,34 @@
+[
+  {
+    "name": "lokesh",
+    "email": "lokesh25@gmail.com",
+    "password": "lokesh",
+    "confirmPassword": "lokesh",
+    "IsAccepted": true,
+    "timestamp": "2024-11-13T10:58:55.444Z"
+  },
+  {
+    "name": "karthi",
+    "email": "karthi@gmail.com",
+    "password": "123456",
+    "confirmPassword": "123456",
+    "IsAccepted": true,
+    "timestamp": "2024-11-13T11:47:38.407Z"
+  },
+  {
+    "name": "lokesh",
+    "email": "new@gmail.com",
+    "password": "lokesh",
+    "confirmPassword": "lokesh",
+    "IsAccepted": true,
+    "timestamp": "2024-11-13T18:01:06.635Z"
+  },
+  {
+    "name": "123",
+    "email": "123@gmail.com",
+    "password": "123456",
+    "confirmPassword": "123456",
+    "IsAccepted": true,
+    "timestamp": "2024-11-14T09:00:22.970Z"
+  }
+]
