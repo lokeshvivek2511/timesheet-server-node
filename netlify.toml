@@ -1,19 +1,10 @@
 [build]
   command = "npm install && npm run build"
-  functions = "functions"
   publish = "public"
+  functions = "functions"
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
+  from = "/*"
+  to = "/index.html"
   status = 200
 
-[functions]
-  external_node_modules = ["express"]
-  node_bundler = "esbuild"
-[[headers]]
-  for = "/*"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
-    Access-Control-Allow-Headers = "Origin, X-Requested-With, Content-Type, Accept, Authorization"
