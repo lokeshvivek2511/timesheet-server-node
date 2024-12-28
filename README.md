@@ -136,11 +136,7 @@ Ensure the `netlify.toml` file is present:
 ]
 ```
 
-## Adding a Report PDF
-To add your report PDF to the repository and include it in the README:
-1. Place the PDF file (e.g., `report.pdf`) in the root directory.
-2. Add the following link to the README:
- 
+## Report 
    [Project Report](https://github.com/lokeshvivek2511/timesheet-client-react/blob/main/docs/Timesheet_Report.pdf)
 
 
